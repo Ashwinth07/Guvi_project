@@ -1,7 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
-header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
 
 $servername = "localhost";
 $username ="root";
@@ -20,7 +17,7 @@ if(isset($_POST['name']) && $_POST['name']!='' && isset($_POST['password']) && $
     $sql = "INSERT INTO idregister(name,password,email) VALUES('".addslashes($_POST['name'])."','".addslashes($password)."','".addslashes($_POST['email'])."')";
     $connect->query($sql);
 }
-$uri = 'mongodb://localhost:27017/';
+$uri = 'mongodb+srv://Ashwinth:1234@guviclus.dl5aa6p.mongodb.net/?retryWrites=true&w=majority';
 $manager = new MongoDB\Driver\Manager($uri);
 
 $database = "test";

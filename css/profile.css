@@ -1,0 +1,8 @@
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
