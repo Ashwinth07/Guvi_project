@@ -5,4 +5,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+.view-mode{
+    width:20%;
+    background-color:grey;
+}

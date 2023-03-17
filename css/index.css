@@ -1,0 +1,59 @@
+.ind-con{
+    width: 20%;
+    background-color: grey;
+    margin:auto auto;
+    margin-top: 20%;
+    border-radius: 24px;
+}
+.but{
+    padding: 100px;
+    
+}
+body{
+    background-image: url("../assets/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/* CSS */
+.but {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.26);
+  border: 1px solid #DFDFDF;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 28px;
+  max-width: 100%;
+  padding: 14px 22px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.but:active,
+.but:hover {
+  outline: 0;
+}
+
+.but:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+  .but {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}
